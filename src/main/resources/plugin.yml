@@ -1,0 +1,6 @@
+name: randomMOTD
+version: '1.0-SNAPSHOT'
+main: lol.sander.randomMOTD.RandomMOTD
+api-version: '1.21'
+authors: [ sanderson ]
+website: sander.lol
