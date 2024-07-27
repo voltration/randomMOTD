@@ -9,12 +9,7 @@ class RandomMOTD : CommandExecutor {
 
     private val formatter = Format()
 
-    override fun onCommand(
-        sender: CommandSender,
-        cmd: Command,
-        label: String,
-        args: Array<out String>
-    ): Boolean {
+    override fun onCommand(sender: CommandSender, cmd: Command, label: String, args: Array<out String>): Boolean {
 
         sender.sendMessage(formatter.format("&ehttps://github.com/voltration/randomMOTD"))
         return true
